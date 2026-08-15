@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="description"
+    content="A visual introduction to traditional dance forms of Nepal and the communities that keep them moving."
+  />
+
+  <title>Nepal in Motion</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&family=Noto+Sans+Devanagari:wght@500;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <div class="grain"></div>
+
+  <header class="site-header">
+
+    <a class="brand" href="#top">
+
+      <span class="brand-mark">
+        <svg viewBox="0 0 60 60">
+          <path d="M8 44 24 16l8 13 7-9 13 24H8Z"/>
+          <circle cx="45" cy="13" r="5"/>
+        </svg>
+      </span>
+
+      <span>Nepal in Motion</span>
+
+    </a>
+
+    <button class="menu-btn">Menu</button>
+
+    <nav class="nav-links">
+      <a href="#dances">Dances</a>
+      <a href="#story">Why Dance?</a>
+      <a href="#map">Across Nepal</a>
+    </nav>
+
+  </header>
+
+
+  <main id="top">
+
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+      <div class="hero-copy reveal">
+
+        <p class="eyebrow">
+          नेपालका नृत्य • Dances of Nepal
+        </p>
+
+        <h1>
+          Stories that <em>move.</em>
+        </h1>
+
+        <p class="hero-lede">
+          A visual archive celebrating the dances, festivals,
+          rhythms and communities that carry memory across
+          generations in Nepal.
+        </p>
+
+        <a class="button" href="#dances">
+          Explore the dances ↓
+        </a>
+
+      </div>
+
+
+      <div class="hero-art reveal">
+
+        <svg class="hero-sketch" viewBox="0 0 560 560">
+
+          <circle
+            class="sun"
+            cx="410"
+            cy="90"
+            r="55"
+          />
+
+          <!-- mountains -->
+
+          <path
+            class="mountain"
+            d="M20 408
+               L131 232
+               L189 314
+               L260 182
+               L343 327
+               L392 257
+               L540 408"
+          />
+
+          <path
+            class="ground"
+            d="M12 410
+               C114 393 205 436 301 420
+               C404 400 451 410 550 424"
+          />
+
+
+          <!-- dancer -->
+
+          <g class="dancer">
+
+            <circle cx="247" cy="203" r="27"/>
+
+            <path
+              d="M244 232
+                 C226 272 221 318 238 354"
+            />
+
+            <path
+              d="M258 232
+                 C276 273 287 315 275 355"
+            />
+
+            <path
+              d="M234 260
+                 C199 275 176 263 160 240"
+            />
+
+            <path
+              d="M268 260
+                 C306 273 339 266 356 241"
+            />
+
+            <path
+              d="M237 351
+                 C208 372 193 400 190 437"
+            />
+
+            <path
+              d="M275 352
+                 C302 374 322 402 328 438"
+            />
+
+
+            <path
+              class="skirt"
+              d="M230 282
+                 C205 318 186 356 176 397
+                 C229 419 282 420 335 397
+                 C322 354 301 316 274 282"
+            />
+
+          </g>
+
+
+          <!-- little stars -->
+
+          <g class="sparkles">
+
+            <path
+              d="m99 127
+                 7 15
+                 15 7
+                 -15 7
+                 -7 15
+                 -7-15
+                 -15-7
+                 15-7Z"
+            />
+
+            <circle cx="436" cy="284" r="7"/>
+
+          </g>
+
+        </svg>
+
+      </div>
+
+
+      <div class="hero-ribbon">
+
+        <span>✦ rhythm</span>
+        <span>✦ community</span>
+        <span>✦ memory</span>
+        <span>✦ celebration</span>
+        <span>✦ storytelling</span>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- INTRO -->
+
+    <section class="intro" id="story">
+
+      <div class="section-label">
+        01 / Why dance?
+      </div>
+
+
+      <div class="intro-grid">
+
+        <h2>
+          More than
+          performance.
+        </h2>
+
+        <div>
+
+          <p class="big-copy">
+            In Nepal, dance is woven into festivals,
+            harvests, worship, courtship, storytelling,
+            and community life.
+          </p>
+
+          <p>
+            Nepal's dance heritage is not one single tradition.
+            It is a living collection of cultural practices shaped
+            by different communities, regions, languages and histories.
+          </p>
+
+          <p>
+            Some dances are ceremonial. Some are performed during
+            festivals. Others preserve stories, celebrate harvests,
+            strengthen community ties or pass traditions from one
+            generation to the next.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- DANCES -->
+
+    <section class="dance-section" id="dances">
+
+      <div class="section-heading">
+
+        <div>
+
+          <div class="section-label">
+            02 / Meet the dances
+          </div>
+
+          <h2>
+            Six traditions.<br>
+            Six stories.
+          </h2>
+
+        </div>
+
+        <p>
+          Click a dance to discover its cultural context,
+          region and history.
+        </p>
+
+      </div>
+
+
+      <div class="filters">
+
+        <button
+          class="filter active"
+          data-filter="all"
+        >
+          All
+        </button>
+
+        <button
+          class="filter"
+          data-filter="festival"
+        >
+          Festival
+        </button>
+
+        <button
+          class="filter"
+          data-filter="ritual"
+        >
+          Ritual
+        </button>
+
+        <button
+          class="filter"
+          data-filter="community"
+        >
+          Community
+        </button>
+
+      </div>
+
+
+      <div
+        class="dance-grid"
+        id="danceGrid"
+      ></div>
+
+    </section>
+
+
+
+    <!-- QUOTE -->
+
+    <section class="quote-band">
+
+      <div class="flower">
+        ✿
+      </div>
+
+      <p>
+        Every step belongs to a place,
+        a people and a story.
+      </p>
+
+      <div class="flower">
+        ✿
+      </div>
+
+    </section>
+
+
+
+    <!-- MAP -->
+
+    <section class="map-section" id="map">
+
+      <div class="section-label">
+        03 / Across Nepal
+      </div>
+
+
+      <div class="map-grid">
+
+        <div>
+
+          <h2>
+            One country.<br>
+            Many rhythms.
+          </h2>
+
+          <p>
+            Dance traditions across Nepal reflect the diversity
+            of the country's communities and geography.
+            Many traditions overlap between regions and may
+            look different from one community to another.
+          </p>
+
+        </div>
+
+
+        <div class="nepal-map-wrap">
+
+          <svg
+            class="nepal-map"
+            viewBox="0 0 760 360"
+          >
+
+            <path
+              class="map-shape"
+              d="
+              M43 166
+              C131 136 187 136 250 105
+              C333 65 379 54 440 71
+              C495 86 543 79 595 56
+              C626 43 668 45 691 64
+              C639 101 599 122 573 154
+              C553 178 532 204 491 208
+              C433 213 384 195 331 213
+              C267 234 211 261 143 251
+              C92 243 51 227 22 198
+              C24 185 30 175 43 166
+              Z"
+            />
+
+
+
+            <!-- markers -->
+
+            <g class="pin" transform="translate(470 131)">
+              <circle r="14"/>
+              <circle r="4"/>
+              <text x="20" y="5">
+                Lakhey
+              </text>
+            </g>
+
+
+            <g class="pin" transform="translate(585 116)">
+              <circle r="14"/>
+              <circle r="4"/>
+              <text x="20" y="5">
+                Sakela
+              </text>
+            </g>
+
+
+            <g class="pin" transform="translate(352 144)">
+              <circle r="14"/>
+              <circle r="4"/>
+              <text x="20" y="5">
+                Ghatu
+              </text>
+            </g>
+
+
+            <g class="pin" transform="translate(220 198)">
+              <circle r="14"/>
+              <circle r="4"/>
+              <text x="20" y="5">
+                Maruni
+              </text>
+            </g>
+
+
+            <g class="pin" transform="translate(115 194)">
+              <circle r="14"/>
+              <circle r="4"/>
+              <text x="20" y="5">
+                Lathi
+              </text>
+            </g>
+
+          </svg>
+
+          <p class="map-note">
+            Illustrative cultural map — locations are approximate.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+
+  <footer>
+
+    <div>
+
+      <span class="footer-title">
+        Nepal in Motion
+      </span>
+
+      <p>
+        A love letter to movement, memory and cultural heritage.
+      </p>
+
+    </div>
+
+
+    <div class="footer-mark">
+      नाचौँ • सम्झौँ • बाँडौँ
+    </div>
+
+
+    <p class="footer-small">
+      Made with HTML, CSS & JavaScript.
+    </p>
+
+  </footer>
+
+
+
+  <!-- POPUP MODAL -->
+
+  <dialog
+    class="dance-modal"
+    id="danceModal"
+  >
+
+    <button
+      class="modal-close"
+      aria-label="Close"
+    >
+      ×
+    </button>
+
+    <div id="modalContent"></div>
+
+  </dialog>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
